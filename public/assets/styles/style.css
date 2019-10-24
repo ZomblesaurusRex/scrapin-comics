@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    background-image: url("../images/pixel.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color: #efefef;
+
+}
+.navbar{
+    background-color: black;
+    color: #efefef;
+
+}
+.card{
+    background: #35333360;
+    border-color: #efefef;
+    color: #ffffff;
+    margin: 10px;
+}
+.jumbotron{
+    background: #00000033;
+    color: #efefef;
+    text-shadow: 2px 2px 4px #000000;
+    border-bottom: solid;
+    border-bottom-color: #efefef;
+}
+.display-4{
+    font-family: 'Bangers', cursive;
+    font-size: 6em;
+}
+.card-title{
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Bangers', cursive;
+}
+.btn{
+    background-color: #024dbe;
+    color: #efefef;
+    text-align: center;
+    align-content: center;
+    padding: 5px;
+    margin: 8px;
+    box-shadow: 6px 6px 4px #252525;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover{
+    background-color: #28093d;
+    color: #efefef;
+    
+}
+.lead{
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    
+}

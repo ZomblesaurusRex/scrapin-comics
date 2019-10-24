@@ -1,0 +1,13 @@
+<div class="card-columns">
+    {{#each articles}}
+    <div class="card">
+        <img class="article-image" src="{{this.articleImg}}" class="card-img-top" alt="Article Image">
+        <div class="card-body">
+            <h5 class="card-title article-title">{{this.articleDetails}}</h5>
+            <a class="btn article-link" href="{{this.articleLink}}">Read More</a>
+            <a class="btn" href="">Save for Later</a>
+
+        </div>
+    </div>
+    {{/each}}
+</div>
